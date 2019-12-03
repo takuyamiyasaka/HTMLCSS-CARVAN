@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.masterbox{
+	width: 960px;
+	margin: 0 auto;
+}
+.mainbox{
+	margin: 0 auto;
+	margin-top: 50px;
+
+}
+.listbox:nth-child(odd){
+	line-height: center;
+	width: 960px;
+	background-color: #f7f7f7;
+}
+.listbox:nth-child(even){
+	line-height: center;
+	width: 960px;
+	background-color: #ffffff;
+}
+
+.listbox p{
+	padding:20px;
+	color: #515151;
+}
+.subbox{
+	width: 960px;
+	margin:50px 0;
+}
+.box{
+	height: 200px;
+	width: 30%
+}
+.box:nth-child(1){
+	background-color:orange;
+	float: left;
+	margin-bottom: 40px;
+	margin-right:5%;
+}
+.box:nth-child(2){
+	background-color: yellow;
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 5%;
+}
+.box:nth-child(3){
+	background-color: yellow;
+	float: left;
+	margin-bottom: 40px;
+}
+.box:nth-child(4){
+	background-color: yellow;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 40px;
+}
+.box:nth-child(5){
+	background-color: orange;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 40px;
+}
+.box:nth-child(6){
+	background-color: yellow;
+	float: left;
+	margin-bottom: 40px;
+}
+.box:nth-child(7){
+	background-color: yellow;
+	float: left;
+	margin-right: 5%;
+}
+.box:nth-child(8){
+	background-color: yellow;
+	float: left;
+	margin-right: 5%;
+}
+.box:nth-child(9){
+	background-color: orange;
+	float: left;
+}
